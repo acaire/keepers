@@ -22,7 +22,7 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        pytest
+        python -m pytest
     - name: Test with yapf
       run: |
         pip install yapf
